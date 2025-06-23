@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 import sidebar from './sidebar.mjs'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base:'/enstar/',
+  // base:'/enstar/',
   siteTitle: false,
 // 站点浏览器图标
   head: [['link', { rel: 'icon', href: '/enstar/logo.jpg' }]],
