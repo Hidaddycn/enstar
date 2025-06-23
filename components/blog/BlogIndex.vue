@@ -28,10 +28,10 @@
   import { useData } from 'vitepress'
   import CardSpotlight from '../CardSpotlight.vue';
 const  blogcategories = [
-    { title: 'Team Stories',  link:'/blog/team/index.html'},
-    { title: 'Exhibitions Shows', link:'/blog/exhibitions/index.html' },
-    { title: 'Collaborations with Clients',  link:'/blog/customer/index.html'},
-    { title: 'Other Stories', link:'/blog/other/index.html' }
+    { title: 'Team Stories',  link:'/blog/team'},
+    { title: 'Exhibitions Shows', link:'/blog/exhibitions' },
+    { title: 'Collaborations with Clients',  link:'/blog/customer'},
+    { title: 'Other Stories', link:'/blog/other' }
   ];
 const { isDark } = useData()
 
