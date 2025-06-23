@@ -5,7 +5,7 @@ export default defineConfig({
   base:'/enstar/',
   siteTitle: false,
 // 站点浏览器图标
-  head: [['link', { rel: 'icon', href: '/logo.jpg' }]],
+  head: [['link', { rel: 'icon', href: '/enstar/logo.jpg' }]],
   // title: false,
   description: `JIA XIng EN Star Export & Export Co.,LtdJiaxing EN Star Import & Export Co., Ltd. is a professional global trading partner dedicated to delivering high-quality commodities worldwide. Guided by our core philosophy of "Star-Navigated, Trust-Shared", we provide efficient and reliable end-to-end import/export solutions. Leveraging the strategic advantages of the Yangtze River Delta, we specialize in building materials, consumer goods, and industrial equipment, offering customized services and robust supply chain management to bridge "Made in China" with global markets.`,
   themeConfig: {
