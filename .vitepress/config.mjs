@@ -22,6 +22,7 @@ export default defineConfig({
   siteTitle: false,
   // 站点浏览器图标
   head: [['link', { rel: 'icon', href: '/logo.jpg' }],
+  ['meta', { name: 'baidu-site-verification', content: 'codeva-gGlX6D1AYi' }],
 
   ['script', {}, ` var _hmt = _hmt || [];
 (function() {
