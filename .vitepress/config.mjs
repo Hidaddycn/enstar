@@ -2,6 +2,9 @@ import { defineConfig } from 'vitepress'
 import sidebar from './sidebar.mjs'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  sitemap: {
+    hostname: 'https://go-lighting.cn'
+  },
   locales: {
     root: {
       label: 'English',

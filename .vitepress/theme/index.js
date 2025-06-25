@@ -14,7 +14,7 @@ export default {
   enhanceApp({ app, router, siteData }) {
     // ...
     app.component('MyLayout', MyLayout)
-    router.onBeforeRouterChange = (to, from) => {
+    router.onBeforeRouteChange = (to, from) => {
       console.log('before route change', to, from)
     }
   }
