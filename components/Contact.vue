@@ -19,7 +19,7 @@
             <div class="grid grid-cols-3 mt-4">
                 <div class="text-left text-lg text-gray-800 dark:text-white ">
              <p class=" text-xs italic text-gray-800 dark:text-gray-400 font-semibold">PHONE</p>
-             <p class="text-sm leading-4 uppercase font-medium" >+086 15858302254</p>
+             <p class="text-sm leading-4 uppercase font-medium" >+086 13656617631</p>
             </div>
             <div class="text-left text-lg text-gray-800 dark:text-white ">
              <p class=" text-xs italic text-gray-800 dark:text-gray-400  font-semibold">EMAIL</p>
@@ -27,7 +27,7 @@
             </div>
             <div class="text-left text-lg text-gray-800 dark:text-white ">
              <p class=" text-xs italic text-gray-800 dark:text-gray-400  font-semibold">WECHAT</p>
-             <p class="text-sm leading-4 uppercase font-medium" >158858521</p>
+             <p class="text-sm leading-4 uppercase font-medium" >13656617631</p>
             </div>
             </div>
            
