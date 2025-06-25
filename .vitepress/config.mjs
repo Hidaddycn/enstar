@@ -19,12 +19,14 @@ export default defineConfig({
   siteTitle: false,
   // 站点浏览器图标
   head: [['link', { rel: 'icon', href: '/logo.jpg' }],
-   ['script', { async: "", src: 'https://www.googletagmanager.com/gtag/js?id=G-RQD6BKT6TB' }],
-   ['script', {}, ` window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-RQD6BKT6TB');`]],
+  ['script', {}, ` var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d9e57e7e00a5ac3d92391c7c33ad2634";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();`]],
   // title: false,
   description: `JIA XIng EN Star Export & Export Co.,LtdJiaxing EN Star Import & Export Co., Ltd. is a professional global trading partner dedicated to delivering high-quality commodities worldwide. Guided by our core philosophy of "Star-Navigated, Trust-Shared", we provide efficient and reliable end-to-end import/export solutions. Leveraging the strategic advantages of the Yangtze River Delta, we specialize in building materials, consumer goods, and industrial equipment, offering customized services and robust supply chain management to bridge "Made in China" with global markets.`,
   themeConfig: {
