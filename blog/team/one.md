@@ -1,7 +1,14 @@
 ---
-
 layout: MyLayout
-
+title: my frist blog actices
+description: my frist blog actices description
+head:
+  - - meta
+    - name: description
+      content: hello
+  - - meta
+    - name: keywords
+      content: super duper SEO
 ---
 # one
 ## 第二标题

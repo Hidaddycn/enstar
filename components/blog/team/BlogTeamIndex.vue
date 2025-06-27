@@ -5,12 +5,17 @@
             <div class="mt-2 mb-8 text-zinc-500">Behind-the-Scenes Stories of Our United Journey</div>
         </div>
         <div  class="px-10">
-          <BlogCard v-for="item in teamStories" :key="item.link" :title="item.title" :description="item.description" :src="item.image" :slug="item.link"/>
+          <BlogCard v-for="item in posts" :key="item.link" :title="item.title" :description="item.frontmatter
+.description" :src="item.image" :slug="item.url"/>
         </div>
+  
     </div>
 </template>
 <script lang='ts' setup name='YourName'>
 import BlogCard from '../BlogCard.vue';
+
+import { data as posts } from '../../../.vitepress/theme/blog.data.js'
+console.log(posts);
 const teamStories = [
     {
         title: 'Our Team',

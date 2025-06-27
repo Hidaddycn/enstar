@@ -39,7 +39,6 @@ titleTemplate: Vite & Vue powered static site generator
 <script setup>
 import Index from './components/Index.vue'
 
-
 //import Modal from './Modal.vue'
 
 

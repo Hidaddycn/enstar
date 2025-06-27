@@ -2,7 +2,7 @@
     <div>
         <!-- 液体logo -->
         <div class="flex h-96 w-full items-center justify-center">
-            <LiquidLogo image-url="/test.png" />
+            <LiquidLogo image-url="/yetai.png" />
         </div>
         <!-- 文字 -->
         <div>

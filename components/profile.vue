@@ -169,7 +169,7 @@ const openHanlder = ()=>{
 
 .bg {
   height: 500px;
-  background-image: url('/img/2.svg');
+  /* background-image: url('/img/2.svg'); */
   background-repeat: no-repeat;
   background-size: 50% 50%;
   background-position: 50%;

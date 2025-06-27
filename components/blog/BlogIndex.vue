@@ -28,7 +28,7 @@
   import { useData } from 'vitepress'
   import CardSpotlight from '../CardSpotlight.vue';
 const  blogcategories = [
-    { title: 'Team Stories',  link:'/blog/team'},
+    { title: 'Team Stories',  link:'/blog/teamindex'},
     { title: 'Exhibitions Shows', link:'/blog/exhibitions' },
     { title: 'Collaborations with Clients',  link:'/blog/customer'},
     { title: 'Other Stories', link:'/blog/other' }

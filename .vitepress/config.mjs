@@ -21,7 +21,7 @@ export default defineConfig({
   // base:'/enstar/',
   siteTitle: false,
   // 站点浏览器图标
-  head: [['link', { rel: 'icon', href: '/logo.jpg' }],
+  head: [['link', { rel: 'icon', href: '/logo.ico' }],
   ['meta', { name: 'baidu-site-verification', content: 'codeva-HbLDqKz1Eg' }],
 
   ['script', {}, ` var _hmt = _hmt || [];
@@ -77,7 +77,7 @@ export default defineConfig({
     footer: {
       copyright: `Copyright © 2021-${new Date().getFullYear()} JIAXING EN Star Import & Export Co.,Ltd`
     },
-    logo: { light: '/test.png', dark: '/test.png', alt: 'logoholder' },
+    logo: { light: '/logo-light.svg', dark: '/logo-dark.svg', alt: 'logoholder' },
     siteTitle: false,
     outline: {
       label: 'On this page',

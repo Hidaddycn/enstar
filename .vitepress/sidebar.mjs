@@ -6,7 +6,7 @@ export default {
         link: '/blog/index',
         items: [
           {
-            text: 'team', link: '/blog/team/index', items: [
+            text: 'team', link: '/blog/teamindex', items: [
 
               { text: 'One1111', link: '/blog/team/one' },
               { text: 'Tw2222o', link: '/blog/team/two' }

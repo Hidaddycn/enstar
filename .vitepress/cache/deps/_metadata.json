@@ -1,65 +1,74 @@
 {
-  "hash": "3fd0e115",
+  "hash": "fc69e5fe",
   "configHash": "d18f286c",
-  "lockfileHash": "1707ec8b",
-  "browserHash": "578f22ee",
+  "lockfileHash": "0770dfa1",
+  "browserHash": "13a43408",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "66e2e519",
+      "fileHash": "0a98d823",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "612cc486",
+      "fileHash": "f633154f",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/vitepress/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "036614dc",
+      "fileHash": "02dbc09d",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "d3c602fa",
+      "fileHash": "39c4199f",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "0c4c2f18",
+      "fileHash": "d8583667",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "e1ed7d6e",
+      "fileHash": "238b37b6",
       "needsInterop": false
     },
-    "clsx": {
-      "src": "../../../node_modules/clsx/dist/clsx.mjs",
-      "file": "clsx.js",
-      "fileHash": "8a08da65",
-      "needsInterop": false
-    },
-    "tailwind-merge": {
-      "src": "../../../node_modules/tailwind-merge/dist/bundle-mjs.mjs",
-      "file": "tailwind-merge.js",
-      "fileHash": "7b63b860",
+    "@giscus/vue": {
+      "src": "../../../node_modules/@giscus/vue/dist/index.js",
+      "file": "@giscus_vue.js",
+      "fileHash": "475dc149",
       "needsInterop": false
     },
     "@vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "@vueuse_core.js",
-      "fileHash": "3d992a27",
+      "fileHash": "23103c95",
+      "needsInterop": false
+    },
+    "clsx": {
+      "src": "../../../node_modules/clsx/dist/clsx.mjs",
+      "file": "clsx.js",
+      "fileHash": "2a4bbcc4",
+      "needsInterop": false
+    },
+    "tailwind-merge": {
+      "src": "../../../node_modules/tailwind-merge/dist/bundle-mjs.mjs",
+      "file": "tailwind-merge.js",
+      "fileHash": "156e2fb8",
       "needsInterop": false
     }
   },
   "chunks": {
+    "giscus-Ci9LqPcC-HTO3SDJY": {
+      "file": "giscus-Ci9LqPcC-HTO3SDJY.js"
+    },
     "chunk-XJPKZAQV": {
       "file": "chunk-XJPKZAQV.js"
     }
