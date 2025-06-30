@@ -24,6 +24,8 @@ export default defineConfig({
   // 站点浏览器图标
   head: [['link', { rel: 'icon', href: '/logo.ico' }],
   ['meta', { name: 'baidu-site-verification', content: 'codeva-HbLDqKz1Eg' }],
+  ['meta', { name: 'msvalidate.01', content: '3BCF94B10FAD93322860B7BB8B29A595' }],
+
 
   ['script', {}, ` var _hmt = _hmt || [];
 (function() {
