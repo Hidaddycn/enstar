@@ -29,9 +29,9 @@
   import CardSpotlight from '../CardSpotlight.vue';
 const  blogcategories = [
     { title: 'Team Stories',  link:'/blog/teamindex'},
-    { title: 'Exhibitions Shows', link:'/blog/exhibitions' },
-    { title: 'Collaborations with Clients',  link:'/blog/customer'},
-    { title: 'Other Stories', link:'/blog/other' }
+    { title: 'Exhibitions Shows', link:'/blog/exhibitionsindex' },
+    { title: 'Collaborations with Clients',  link:'/blog/customerindex'},
+    { title: 'Other Stories', link:'/blog/otherindex' }
   ];
 const { isDark } = useData()
 
