@@ -3,7 +3,7 @@ layout: MyLayout
 title: my frist blog actices
 description: my frist blog actices description
 editor: okkkkk
-image: /public/logo.jpg
+image: /DSCF9414.jp
 head:
   - - meta
     - name: description
