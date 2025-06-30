@@ -15,4 +15,4 @@ head:
 # one
 ## 第二标题
 ### 第三标题
-![EN Star Logo](/public/logo.jpg "EN Star Logo")
+![EN Star Logo](/DSCF9414.jpg "EN Star Logo")
