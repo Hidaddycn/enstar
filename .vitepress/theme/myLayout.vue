@@ -1,11 +1,11 @@
 <template>
-    <div>
+    <div class="px-4">
         <header>
             <!-- 自定义布局的头部内容 -->
             <!-- <h1>My Custom Layout</h1>
             <Test /> -->
         </header>
-        <main class="dd">
+        <main class="vp-doc">
             <!-- 确保这里渲染了 Markdown 内容 -->
             <Content />
         </main>
@@ -24,8 +24,5 @@ import { useData } from "vitepress";
 const { isDark, page } = useData();
 </script>
 <style scoped>
-.dd img {
-    width: 550px;
-    border: 2px solid #ca1515;
-}
+
 </style>

@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <div class="px-4">
         <!-- 液体logo -->
-        <div class="flex h-96 w-full items-center justify-center">
+        <div class="h-96 w-full items-center justify-center hidden md:block z-20">
             <LiquidLogo image-url="/yetai.png" />
         </div>
         <!-- 文字 -->

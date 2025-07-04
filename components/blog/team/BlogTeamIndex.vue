@@ -13,7 +13,7 @@
 </template>
 <script lang='ts' setup name='YourName'>
 import BlogCard from '../BlogCard.vue';
-import { ref, onMounted } from 'vue'
+
 import { data as posts } from '../../../.vitepress/theme/teamblog.data.js'
 
 

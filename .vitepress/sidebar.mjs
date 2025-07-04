@@ -16,7 +16,7 @@ export default {
             // ]
           },
          
-          { text: 'Collaborations with Clients', link: '/blog/customerindex' },
+          { text: 'Collaborations with Clientss', link: '/blog/customerindex' },
           { text: 'Exhibitions Shows', link: '/blog/exhibitionsindex' },
           {
             text: 'Other Stories', link: '/blog/otherindex', 

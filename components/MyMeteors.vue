@@ -1,6 +1,6 @@
 <template>
-    <div class="grid grid-cols-3  container mx-auto px-20  gap-4">
-        <div class="flex w-full flex-col items-center justify-center" v-for="i in 6">
+    <div class="lg:grid grid-cols-3  container mx-auto   gap-4">
+        <div class="flex w-full flex-col items-center justify-center my-4" v-for="i in 6">
         <div class="relative w-full max-w-md">
             <div class="absolute inset-0 size-full scale-[0.80] rounded-full" />
             <div
