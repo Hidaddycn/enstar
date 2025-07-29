@@ -1,5 +1,5 @@
 <template>
-<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3s gap-4 border">
     <ProductCard v-for="item in 10"/>
     <!-- <ProductCard1 v-for="item in 10"/> -->
 </div>

@@ -1,5 +1,5 @@
 <template>
-<div class="card w-full  p-6  hover:border-green-800 max-w-sm  transition-all duration-300 ease-in-out  hover:shadow-xl">
+<div class="card w-full  p-6  hover:border-green-800   transition-all duration-300 ease-in-out  hover:shadow-xl">
     <div class="bg-white  overflow-hidden max-h-60">
         <img :src="src" alt="">
     </div>

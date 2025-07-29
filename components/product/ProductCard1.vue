@@ -1,32 +1,60 @@
 <template>
 
-  <div class="  max-w-sm min-w-xs hover:cursor-pointer " @click="goblogdetail">
+  <div class=" hover:cursor-pointer group" @click="goblogdetail">
 
     <div
-      class="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl border border-gray-150 dark:bg-zinc-950 bg-gray-150 px-4 py-4 shadow-xl">
+      class="relative flex h-full flex-col  items-start justify-end overflow-hidden rounded-2xl border border-gray-150 dark:bg-zinc-950 bg-gray-150 px-4 py-4 shadow-xl ">
       <!-- 16:9 图片容器 -->
-      <div class="relative w-full pt-[56.25%] overflow-hidden rounded-xl">
-        <!-- 56.25% = 9/16 * 100% -->
-        <img :src="src" alt="" class="absolute top-0 left-0 w-full h-full object-cover">
-      </div>
+      <div class="relative group-hover:-translate-y-60 transition-transform duration-1000 ease-in-out rongqi">
+        <div
+          class="  relative w-full  rounded-xl overflow-hidden opacity-100 group-hover:opacity-0  duration-1000 ease-in-out">
+          <!-- 56.25% = 9/16 * 100% -->
+          <img :src="src" alt="" class=" w-full h-full object-cover">
+        </div>
 
-      <div class=" mt-6 mb-4 text-xl font-bold ">
-        {{ title }}
-      </div>
+        <div class=" mt-6 mb-4 md:text-3xl text-xl font-bold text-center  w-full">
+          {{ title }}
+        </div>
 
-      <p class="mb-4 text-base font-normal text-slate-500 
+        <p class="mb-4 md:text-xl 
+      text-center  w-full
         line-clamp-2
         overflow-hidden">
-        {{ description }}
-      </p>
+          {{ description }}
+        </p>
+        <div class="mt-20   text-secondary">
+          <p>
+            <span class="mx-2">2700K</span>
+            <span class="mx-2">3000K</span>
+            <span class="mx-2">4500K</span>
+          </p>
+          <p>Power (W): 1 W</p>
+          <p>Delivered lumens: min 74 lm - max 85 lm</p>
+          <p>IP: IP65</p>
+          <!-- <div class="flex justify-center mt-4 gap-4">
+            <span class="w-6 h-6 rounded-full bg-blue-100 block"></span>
+            <span class="w-6 h-6 rounded-full bg-gray-100 block"></span>
+            <span class="w-6 h-6 rounded-full bg-red-100 block"></span>
+          </div> -->
 
-      <div class="flex items-center justify-between mt-4 w-full">
-        <div
-          class="rounded-full border w-full py-2 text-center  dark:bg-gray-200 text-white text-xs dark:text-zinc-800 bg-zinc-900">
-          View Detail</div>
-       
+
+
+
+
+
+
+
+
+        </div>
+
+        <!-- <div class="flex items-center justify-between mt-4 w-full">
+          <div
+            class="rounded-full border w-full py-2 text-center  bg-gray-200 text-white text-xs dark:text-zinc-800 dark:bg-zinc-900">
+            View Detail</div>
+
+        </div> -->
       </div>
-      <Meteors />
+      <!-- <Meteors /> -->
     </div>
   </div>
 
@@ -35,7 +63,7 @@
 
 </template>
 <script lang='ts' setup name='YourName'>
-import Meteors from '../Meteors.vue';
+// import Meteors from '../Meteors.vue';
 const props = defineProps({
   src: {
     type: String,
@@ -58,4 +86,47 @@ const goblogdetail = () => {
   window.location.href = props?.slug;
 }
 </script>
-<style scoped></style>
+<style scoped>
+/* .rongqi {
+  height: 480px;
+}
+@media (min-width: 400px) {
+  .rongqi {
+    height: 480px;
+  }
+}
+
+@media (min-width: 640px) {
+  .rongqi {
+    height: 580px;
+  }
+}
+
+@media (min-width: 768px) {
+  .rongqi {
+    height: 580px;
+  }
+} */
+
+.dark .text-secondary {
+  color: white;
+  
+}
+.text-secondary {
+  text-align: center;
+  color:black;
+  position: absolute;
+  top: 100%;
+  /* 初始位置在容器底部 */
+  left: 0;
+  width: 100%;
+  opacity: 1;
+  /* 初始不可见 */
+  transition: opacity 0.3s ease;
+}
+
+.container:hover .text-secondary {
+  opacity: 1;
+  /* 显示第二段文字 */
+}
+</style>

@@ -270,4 +270,17 @@
   /* Dark 模式下的代码块背景 */
   --vp-code-block-bg: #1e1e20;
 }
-
+.code-block pre{
+  max-height: 300px; /* 设置最大高度 */
+  overflow-y: auto; /* 超出高度时显示滚动条 */
+}
+/* 完全重置 h1 样式 */
+ h1 {
+    all: unset;
+    /* font-weight: 400;
+    line-height: 1.0;
+    margin-bottom: 30px; */
+}
+/* button{
+  all: unset;
+} */

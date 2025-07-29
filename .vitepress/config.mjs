@@ -37,10 +37,10 @@ export default defineConfig({
   // title: false,
   description: `JIA XIng EN Star Export & Export Co.,LtdJiaxing EN Star Import & Export Co., Ltd. is a professional global trading partner dedicated to delivering high-quality commodities worldwide. Guided by our core philosophy of "Star-Navigated, Trust-Shared", we provide efficient and reliable end-to-end import/export solutions. Leveraging the strategic advantages of the Yangtze River Delta, we specialize in building materials, consumer goods, and industrial equipment, offering customized services and robust supply chain management to bridge "Made in China" with global markets.`,
   themeConfig: {
-    // carbonAds: {
-    //   code: 'your-carbon-code',
-    //   placement: 'your-carbon-placement'
-    // },
+     docFooter: {
+      prev: 'Pagina prior',
+      next: 'next page'
+    },
     search: {
       provider: 'local'
     },
@@ -56,12 +56,12 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Conatct', link: '/contact' },
-      // { text: 'Company Profile', link: '/profile' },
+       { text: 'Company Profile', link: '/profile' },
       { text: 'Blog', link: '/blog/' },
       {
         text: 'Products', items: [
-          { text: '商品分类1', link: '/product/c1' },
-          { text: '商品分类2', link: '/product/c1/index' },
+          { text: 'Led Panel Light Frame', link: '/product/led-panel-light-frame/index' },
+          { text: 'Led Panel Light Driver', link: '/product/led-panel-light-driver/index' },
           { text: '商品分类3', link: '/markdown-examples' },
         ]
       }

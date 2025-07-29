@@ -1,7 +1,7 @@
 <template>
     <div class="">
         <div class=" my-8 " >
-            <div class="relative w-full max-w-xl hover:cursor-pointer " @click="goblogdetail">
+            <div class="relative w-full max-w-3xl hover:cursor-pointer " @click="goblogdetail">
 
                 <div
                     class="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl border border-gray-150 dark:bg-zinc-950 bg-gray-150 px-4 py-4 shadow-xl">

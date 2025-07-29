@@ -2,12 +2,12 @@
   "hash": "fc69e5fe",
   "configHash": "d18f286c",
   "lockfileHash": "0770dfa1",
-  "browserHash": "13a43408",
+  "browserHash": "f68e9e1f",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "0a98d823",
+      "fileHash": "efaee110",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
@@ -19,13 +19,13 @@
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/vitepress/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "02dbc09d",
+      "fileHash": "eaf54a6b",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "39c4199f",
+      "fileHash": "bea905ff",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
@@ -43,13 +43,13 @@
     "@giscus/vue": {
       "src": "../../../node_modules/@giscus/vue/dist/index.js",
       "file": "@giscus_vue.js",
-      "fileHash": "475dc149",
+      "fileHash": "b39047b4",
       "needsInterop": false
     },
     "@vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "@vueuse_core.js",
-      "fileHash": "23103c95",
+      "fileHash": "483b11d9",
       "needsInterop": false
     },
     "clsx": {
@@ -62,6 +62,12 @@
       "src": "../../../node_modules/tailwind-merge/dist/bundle-mjs.mjs",
       "file": "tailwind-merge.js",
       "fileHash": "156e2fb8",
+      "needsInterop": false
+    },
+    "motion-v": {
+      "src": "../../../node_modules/motion-v/dist/es/index.mjs",
+      "file": "motion-v.js",
+      "fileHash": "77098fde",
       "needsInterop": false
     }
   },
