@@ -17,7 +17,8 @@
         </div>
 
         <p class="mb-4 md:text-xl 
-      text-center  w-full
+        text-center
+        px-2
         line-clamp-2
         overflow-hidden">
           {{ description }}

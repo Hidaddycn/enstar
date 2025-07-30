@@ -7,120 +7,121 @@
             <div class="mt-2 mb-8 text-zinc-500">This page contains a collection of miscellaneous notes, capturing the little moments and insights from life and work.</div>
         </div>
         <div  class="px-4 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-8 mx-auto">
-          <ProductCard1 v-for="item in teamStories" :key="item.link" :title="item.title" :description="item.description" :src="item.image" :slug="item.link"/>
+          <ProductCard1 v-for="item in frames" :key="item.frontmatter.link" :title="item.frontmatter.title" :description="item.frontmatter.description" :src="item.frontmatter.image" :slug="item.frontmatter.link"/>
         </div>
     </div>
 </template>
 <script lang='ts' setup name='YourName'>
 import ProductCard1 from './ProductCard1.vue';
-const teamStories = [
-    {
-        title: 'Our Team',
-        description: 'Meet the dedicated individuals behind our success.',
-        image: '/product/main.jpg',
-        link: '/product/led-panel-light-driver/text.html'
-    },
-     {
-        title: 'Our Team',
-        description: 'Meet the dedicated individuals behind our success.',
-        image: '/product/1_1.jpg',
-        link: '/blog/team/two.html'
-    },
-     {
-        title: 'Our Team',
-        description: 'Meet the dedicated individuals behind our success.',
-        image: '/product/3.jpg',
-        link: '/blog/team/two.html'
-    },
-     {
-        title: 'Our Team',
-        description: 'Meet the dedicated individuals behind our success.',
-        image: '/product/main.jpg',
-        link: '/blog/team/two.html'
-    },
-     {
-        title: 'Our Team',
-        description: 'Meet the dedicated individuals behind our success.',
-        image: '/product/main.jpg',
-        link: '/blog/team/two.html'
-    },
-     {
-        title: 'Our Team',
-        description: 'Meet the dedicated individuals behind our success.',
-        image: '/product/main.jpg',
-        link: '/blog/team/two.html'
-    },
-     {
-        title: 'Our Team',
-        description: 'Meet the dedicated individuals behind our success.',
-        image: '/product/main.jpg',
-        link: '/blog/team/two.html'
-    },
-     {
-        title: 'Our Team',
-        description: 'Meet the dedicated individuals behind our success.',
-        image: '/product/main.jpg',
-        link: '/blog/team/two.html'
-    },
-     {
-        title: 'Our Team',
-        description: 'Meet the dedicated individuals behind our success.',
-        image: '/product/main.jpg',
-        link: '/blog/team/two.html'
-    },
-     {
-        title: 'Our Team',
-        description: 'Meet the dedicated individuals behind our success.',
-        image: '/product/main.jpg',
-        link: '/blog/team/two.html'
-    },
-     {
-        title: 'Our Team',
-        description: 'Meet the dedicated individuals behind our success.',
-        image: '/product/main.jpg',
-        link: '/blog/team/two.html'
-    },
-     {
-        title: 'Our Team',
-        description: 'Meet the dedicated individuals behind our success.',
-        image: '/product/main.jpg',
-        link: '/blog/team/two.html'
-    },
-     {
-        title: 'Our Team',
-        description: 'Meet the dedicated individuals behind our success.',
-        image: '/product/main.jpg',
-        link: '/blog/team/two.html'
-    },
-     {
-        title: 'Our Team',
-        description: 'Meet the dedicated individuals behind our success.',
-        image: '/product/main.jpg',
-        link: '/blog/team/two.html'
-    },
-     {
-        title: 'Our Team',
-        description: 'Meet the dedicated individuals behind our success.',
-        image: '/product/main.jpg',
-        link: '/blog/team/two.html'
-    },
-     {
-        title: 'Our Team',
-        description: 'Meet the dedicated individuals behind our success.',
-        image: '/product/main.jpg',
-        link: '/blog/team/two.html'
-    },
-     {
-        title: 'Our Team',
-        description: 'Meet the dedicated individuals behind our success.',
-        image: '/product/main.jpg',
-        link: '/blog/team/two.html'
-    },
+import { data as frames } from '../../.vitepress/theme/frame.data.js'
+// const teamStories = [
+//     {
+//         title: 'Our Team',
+//         description: 'Meet the dedicated individuals behind our success.',
+//         image: '/product/main.jpg',
+//         link: '/product/led-panel-light-driver/text.html'
+//     },
+//      {
+//         title: 'Our Team',
+//         description: 'Meet the dedicated individuals behind our success.',
+//         image: '/product/1_1.jpg',
+//         link: '/blog/team/two.html'
+//     },
+//      {
+//         title: 'Our Team',
+//         description: 'Meet the dedicated individuals behind our success.',
+//         image: '/product/3.jpg',
+//         link: '/blog/team/two.html'
+//     },
+//      {
+//         title: 'Our Team',
+//         description: 'Meet the dedicated individuals behind our success.',
+//         image: '/product/main.jpg',
+//         link: '/blog/team/two.html'
+//     },
+//      {
+//         title: 'Our Team',
+//         description: 'Meet the dedicated individuals behind our success.',
+//         image: '/product/main.jpg',
+//         link: '/blog/team/two.html'
+//     },
+//      {
+//         title: 'Our Team',
+//         description: 'Meet the dedicated individuals behind our success.',
+//         image: '/product/main.jpg',
+//         link: '/blog/team/two.html'
+//     },
+//      {
+//         title: 'Our Team',
+//         description: 'Meet the dedicated individuals behind our success.',
+//         image: '/product/main.jpg',
+//         link: '/blog/team/two.html'
+//     },
+//      {
+//         title: 'Our Team',
+//         description: 'Meet the dedicated individuals behind our success.',
+//         image: '/product/main.jpg',
+//         link: '/blog/team/two.html'
+//     },
+//      {
+//         title: 'Our Team',
+//         description: 'Meet the dedicated individuals behind our success.',
+//         image: '/product/main.jpg',
+//         link: '/blog/team/two.html'
+//     },
+//      {
+//         title: 'Our Team',
+//         description: 'Meet the dedicated individuals behind our success.',
+//         image: '/product/main.jpg',
+//         link: '/blog/team/two.html'
+//     },
+//      {
+//         title: 'Our Team',
+//         description: 'Meet the dedicated individuals behind our success.',
+//         image: '/product/main.jpg',
+//         link: '/blog/team/two.html'
+//     },
+//      {
+//         title: 'Our Team',
+//         description: 'Meet the dedicated individuals behind our success.',
+//         image: '/product/main.jpg',
+//         link: '/blog/team/two.html'
+//     },
+//      {
+//         title: 'Our Team',
+//         description: 'Meet the dedicated individuals behind our success.',
+//         image: '/product/main.jpg',
+//         link: '/blog/team/two.html'
+//     },
+//      {
+//         title: 'Our Team',
+//         description: 'Meet the dedicated individuals behind our success.',
+//         image: '/product/main.jpg',
+//         link: '/blog/team/two.html'
+//     },
+//      {
+//         title: 'Our Team',
+//         description: 'Meet the dedicated individuals behind our success.',
+//         image: '/product/main.jpg',
+//         link: '/blog/team/two.html'
+//     },
+//      {
+//         title: 'Our Team',
+//         description: 'Meet the dedicated individuals behind our success.',
+//         image: '/product/main.jpg',
+//         link: '/blog/team/two.html'
+//     },
+//      {
+//         title: 'Our Team',
+//         description: 'Meet the dedicated individuals behind our success.',
+//         image: '/product/main.jpg',
+//         link: '/blog/team/two.html'
+//     },
 
     
    
-];
-
+// ];
+console.log('frames', frames);
 const godriver = () => {
   window.location.href = '/product/led-panel-light-driver/index';
 }

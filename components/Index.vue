@@ -13,7 +13,7 @@
         </div> -->
         <!-- 文字 -->
         <div class="flex justify-center ">
-            <div class="text-blance flex justify-center  z-20">
+            <div class="text-blance flex justify-center  ">
                 <div class="text-balance text-center text-4xl font-bold  leading-loose">
                     <LinkPreview url="https://tailwindcss.com" class="" imageSrc="/p1.jpg" :isStatic="true">
                         <span
@@ -44,14 +44,14 @@
                 words="We are a LED panel light supplier from China. Though separated by thousands of miles, our high-quality products, prompt service, and mutual trust will build a strong business partnership between us." />
         </div>
         <!-- 按钮 -->
-        <div class=" z-20 flex h-56 w-full flex-col items-center justify-center ">
-            <GradientButton :bg-color="bgColor" @click="openHanlder" class="hover:cursor-point  z-20">Contact Us 🚀
+        <div class=" flex h-56 w-full flex-col items-center justify-center ">
+            <GradientButton :bg-color="bgColor" @click="openHanlder" class="hover:cursor-point  ">Contact Us 🚀
             </GradientButton>
         </div>
         <!-- 核心人物介绍 -->
-        <div class="text-6xl flex justify-center mt-80 font-bold text-center mb-10 relative z-50">Team Introduction
+        <div class="text-6xl flex justify-center mt-80 font-bold text-center mb-10 relative ">Team Introduction
         </div>
-        <div class="relative h-[500px] w-full overflow-hidden rounded-lg z-20">
+        <div class="relative h-[500px] w-full overflow-hidden rounded-lg ">
             <div class="mt-[64px] flex justify-center px-12">
                 <TestimonialSlider :testimonials="testimonials" />
             </div>

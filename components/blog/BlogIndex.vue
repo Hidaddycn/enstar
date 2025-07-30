@@ -2,7 +2,7 @@
   <div class="reactive">
     <div class="">
       <div class="px-10  border-l-4 border-emerald-400">
-        <div class="font-semibold mt-20 text-7xl subpixel-antialiased capitalize dark:text-emerald-400">"Feel free to
+        <div class="font-semibold mt-20 mb-10 text-4xl md:text-7xl subpixel-antialiased capitalize dark:text-emerald-400">"Feel free to
           explore my blog"</div>
         <div class="mt-1 mb-8 text-zinc-500 text-xl">
           <p>

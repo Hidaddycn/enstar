@@ -9,7 +9,7 @@
             </div>
             <!-- 标题 -->
             <div class="my-10 max-w-3xl ">
-                <h1 class="lg:!text-7xl !text-2xl  !font-bold !capitalize !leading-18">{{ $frontmatter.title }}</h1>
+                <h1 class="lg:!text-7xl !text-2xl  !font-bold !capitalize lg:!leading-18">{{ $frontmatter.title }}</h1>
             </div>
             <div class="my-10 text-lg leading-6 border-l-emerald-400 border-l-4 px-4">
                 <span>{{ $frontmatter.description }}</span>

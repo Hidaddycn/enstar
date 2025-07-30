@@ -71,9 +71,9 @@
 
     <div class="px-8 py-8">
         <!-- 顶部 面包屑-->
-        <div class="border-b sticky top-16 bg-white dark:bg-black z-10">
+        <div class="border-b  bg-white dark:bg-black ">
             <div class=" p-3 px-9 rounded-sm inline-block text-black font-semibold hover:cursor-pointer dark:text-white  outline-offset-2 outline-1 dark:hover:outline-white hover:outline-black "
-                @click="godriver"> <span class="inline-block mr-2">←</span> All Driver</div>
+                @click="goframe"> <span class="inline-block mr-2">←</span> All Frame</div>
             <div class="my-10 text-5xl font-semibold  ">
                 <span>{{ $frontmatter.title }}</span>
             </div>
@@ -92,10 +92,10 @@
                     </AppleCarouselItem>
                 </AppleCardCarousel>
                 <!-- 文字 -->
-                <div class="p-24 flex items-center">
+                <div class="lg:p-24 flex items-center">
                     <div>
-                        <h2 class="!text-5xl !mb-4">Led Panel Light Frame</h2>
-                        <p class="text-2xl">stickyThe Doge_P lamp features a circular, radiating shape with a wavy,
+                        <h2 class="!text-5xl  !text-center !my-10">Led Panel Light Frame</h2>
+                        <p class="text-xl lg:text-2xl">stickyThe Doge_P lamp features a circular, radiating shape with a wavy,
                             jagged profile,
                             reminiscent of a fan or a pleated disc. Its design is marked by regular folds that radiate
                             outward from the center, creating an intriguing play of light and shadow on the surface. At
@@ -245,10 +245,10 @@ const prev = computed(() => {
         link: nextPost.url
     };
 });
-console.log('当前文章:', frontmatter.value);
-console.log('当前索引:', currentIndex.value);
-console.log('上一篇:', prev.value);
-console.log('下一篇:', next.value);
+
+const goframe = () => {
+  window.location.href = '/product/led-panel-light-frame/index';
+}
 
 
 
